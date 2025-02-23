@@ -12,14 +12,10 @@ export default defineConfig({
 				light:'./src/assets/LogoSquareForLight.png', 
 				replacesTitle: true,
 			},
-			favicon: '/assets/LogoSquareForDark.png',
+			favicon: '/favicon.png',
 			social: {
 				github: 'https://github.com/hackatorium',
 			},
-			customCss: [
-				// Path to your custom CSS file
-				'./src/styles/custom.css',
-			  ],
 			sidebar: [
 				// {
 				// 	label: 'Guides',

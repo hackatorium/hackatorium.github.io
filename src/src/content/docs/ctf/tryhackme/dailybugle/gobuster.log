@@ -1,0 +1,35 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.239.38
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/images               (Status: 301) [Size: 235] [--> http://10.10.239.38/images/]
+[2K/media                (Status: 301) [Size: 234] [--> http://10.10.239.38/media/]
+[2K/templates            (Status: 301) [Size: 238] [--> http://10.10.239.38/templates/]
+[2K/modules              (Status: 301) [Size: 236] [--> http://10.10.239.38/modules/]
+[2K/bin                  (Status: 301) [Size: 232] [--> http://10.10.239.38/bin/]
+[2K/plugins              (Status: 301) [Size: 236] [--> http://10.10.239.38/plugins/]
+[2K/includes             (Status: 301) [Size: 237] [--> http://10.10.239.38/includes/]
+[2K/language             (Status: 301) [Size: 237] [--> http://10.10.239.38/language/]
+[2K/components           (Status: 301) [Size: 239] [--> http://10.10.239.38/components/]
+[2K/cache                (Status: 301) [Size: 234] [--> http://10.10.239.38/cache/]
+[2K/libraries            (Status: 301) [Size: 238] [--> http://10.10.239.38/libraries/]
+[2K/tmp                  (Status: 301) [Size: 232] [--> http://10.10.239.38/tmp/]
+[2K/layouts              (Status: 301) [Size: 236] [--> http://10.10.239.38/layouts/]
+[2K/administrator        (Status: 301) [Size: 242] [--> http://10.10.239.38/administrator/]
+[2K/cli                  (Status: 301) [Size: 232] [--> http://10.10.239.38/cli/]
+
+[!] Keyboard interrupt detected, terminating.
+
+===============================================================
+Finished
+===============================================================

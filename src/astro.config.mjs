@@ -16,6 +16,10 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/hackatorium',
 			},
+			customCss: [
+				// Relative path to your custom CSS file
+				'./src/styles/custom.css',
+			  ],
 			sidebar: [
 				{
 					label: 'CTFs',
@@ -23,7 +27,7 @@ export default defineConfig({
 						{ label: 'TryHackMe CTFs', link: 'ctf/tryhackme' },
 						{
 							label: 'Easy',
-							collapsed: true,
+							collapsed: false,
 							items: [
 								{ label: 'basicpentestingjt', link: '/ctf/tryhackme/basicpentestingjt' },
 								{ label: 'picklerick', link: '/ctf/tryhackme/picklerick' },
@@ -45,7 +49,7 @@ export default defineConfig({
 						},
 						{
 							label: 'Medium',
-							collapsed: true,
+							collapsed: false,
 							items: [
 								{ label: 'mrrobot', link: '/ctf/tryhackme/mrrobot' },
 								{ label: 'dogcat', link: '/ctf/tryhackme/dogcat' }
@@ -53,7 +57,7 @@ export default defineConfig({
 						},
 						{
 							label: 'Hard',
-							collapsed: true,
+							collapsed: false,
 							items: [
 								{ label: 'dailybugle', link: '/ctf/tryhackme/dailybugle' },
 								{ label: 'internal', link: '/ctf/tryhackme/internal' }

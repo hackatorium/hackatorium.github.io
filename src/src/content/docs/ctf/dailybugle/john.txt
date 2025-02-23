@@ -1,0 +1,17 @@
+Using default input encoding: UTF-8
+Loaded 1 password hash (bcrypt [Blowfish 32/64 X3])
+Cost 1 (iteration count) is 1024 for all loaded hashes
+Will run 8 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+0g 0:00:02:51 0.13% (ETA: 2023-10-02 12:48) 0g/s 129.4p/s 129.4c/s 129.4C/s 061087..prakash
+0g 0:00:03:06 0.14% (ETA: 2023-10-02 13:02) 0g/s 128.7p/s 128.7c/s 128.7C/s peyton18..jeancarlo
+0g 0:00:03:15 0.15% (ETA: 2023-10-02 13:10) 0g/s 128.0p/s 128.0c/s 128.0C/s sunglasses..nikki11
+0g 0:00:03:16 0.15% (ETA: 2023-10-02 13:14) 0g/s 128.0p/s 128.0c/s 128.0C/s nikki07..jammy
+0g 0:00:04:06 0.18% (ETA: 2023-10-02 13:08) 0g/s 128.6p/s 128.6c/s 128.6C/s amanda18..1sister
+0g 0:00:04:08 0.18% (ETA: 2023-10-02 13:07) 0g/s 128.7p/s 128.7c/s 128.7C/s rattlers..matthew14
+0g 0:00:04:33 0.21% (ETA: 2023-10-02 12:44) 0g/s 130.1p/s 130.1c/s 130.1C/s California..171983
+0g 0:00:04:36 0.21% (ETA: 2023-10-02 12:42) 0g/s 130.3p/s 130.3c/s 130.3C/s lovemeorhateme..jason25
+spiderman123     (?)     
+1g 0:00:05:53 DONE (2023-09-30 23:56) 0.002831g/s 132.7p/s 132.7c/s 132.7C/s thelma1..setsuna
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed.

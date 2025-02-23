@@ -1,0 +1,105 @@
+---
+title: TryHackMe CTFs
+description: A collection of TryHackMe CTF writeups.
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Below are the write-ups of the key details of each TryHackMe room that was done.
+
+### Difficulty: Easy
+
+<CardGrid>
+    <LinkCard href="basicpentestingjt/index.html" 
+        variant="secondary"
+        title="basicpentestingjt"
+        description="Enumerate Samba users (`enum4linux.pl`), `ssh2john` to crack private key."></LinkCard>
+    <LinkCard href="picklerick/index.html"
+        variant="secondary"
+        title="picklerick"
+        description="Use `hydra` with `R1ckRul3s`, `sudo` to root the box."></LinkCard>
+    <LinkCard href="rrootme/index.html"
+
+        variant="secondary"
+        title="rrootme"
+        description="TBD"></LinkCard>
+    <LinkCard href="ohsint/index.html"
+        variant="secondary"
+        title="ohsint"
+        description="TBD"></LinkCard>
+    <LinkCard href="cowboyhacker/index.html"    
+        variant="secondary"
+        title="cowboyhacker"
+        description="Anonymous FTP with password list. Can `sudo` tar, and we use `--checkpoint`"></LinkCard>
+    <LinkCard href="crackthehash/index.html"
+        variant="secondary"
+        title="crackthehash"
+        description="Use `hash-identifier`, CrackStation, and `hashcat`."></LinkCard>
+    <LinkCard href="inclusion/index.html"
+        variant="secondary"
+        title="inclusion"
+        description="All Local File Inclusion (did not login)"></LinkCard>
+    <LinkCard href="agentsudoctf/index.html"
+        variant="secondary"
+        title="agentsudoctf"
+        description="Send custom `User-Agent`; `hydra` against FTP; `steghide`, `binwalk`, and `zip2john`; sudo with `-u#-1`"></LinkCard>
+    <LinkCard href="overpass/index.html"
+        variant="secondary"
+        title="overpass"
+        description="Improper session handling; `ssh2john` to crack private key; `cron` job runs `buildscript.sh` that we edit. Metasploit option too."></LinkCard>
+    <LinkCard href="lazyadmin/index.html"
+        variant="secondary"
+        title="lazyadmin"
+        description="SweetRice CMS; Exposed `.sql` file; File Upload Bypass; Sudo `backup.pl` which calls our script."></LinkCard>
+    <LinkCard href="ignite/index.html"
+        variant="secondary"
+        title="ignite"
+        description="Fuel CMS; ExploitDB Python script or File Upload Bypass; CVE with different paths; Shared MySQL password with root."></LinkCard>
+    <LinkCard href="startup/index.html"
+        variant="secondary"
+        title="startup"
+        description="Writable FTP for reverse shell; PCap in 'incidents' has password; External cron runs `print.sh` that we control."></LinkCard>
+    <LinkCard href="tomghost/index.html"
+        variant="secondary"
+        title="tomghost"
+        description="Ghostcat exploits Apache Jserv Protocol; `john` and `gpg` cracking; We `sudo zip` and leverage `--unzip-command`."></LinkCard>
+    <LinkCard href="chillhack/index.html"
+        variant="secondary"
+        title="chillhack"
+        description="A `/secret/` URL lets you run commands. `account.php` has DB credentials shared with user; send our SSH key
+        to login; `steghide` and `fcrackzip` to PE. Docker filesystem breakout!"></LinkCard>
+    <LinkCard href="bruteit/index.html"
+        variant="secondary"
+        title="bruteit"
+        description="We `hydra` brute force into website; `ssh2john` and `john` to login with SSH keys; Crack `passwd` and `shadow` with `john`."></LinkCard>
+    <LinkCard href="fowsniff-ctf/index.html"
+        variant="secondary"
+        title="fowsniff-ctf"
+        description="Simulated leaked creds on pastebin; Crack MD5 hashes; Credential Stuffing against SSH and POP3; Read emails, check for non-changed passwords; Command Injection for MOTD or ExploitDB for old Kernel."></LinkCard>
+</CardGrid>
+
+### Difficulty: Medium
+
+<CardGrid>
+    <LinkCard href="mrrobot/index.html"
+        variant="secondary"
+        title="mrrobot"
+        description="Use `hydra` to brute force passowrd for `elliot`; Edit Wordpress theme file to set up reverse shell; We can `su` because of crackable hash."></LinkCard>
+    <LinkCard href="dogcat/index.html"
+        variant="secondary"
+        title="dogcat"
+        description="Use Local File Inclusion and HTTP header injection; Can sudo `env` so we get root, but in a container; Reverse shell container breakout via `backup.sh`."></LinkCard>  
+</CardGrid>
+
+### Difficulty: Hard
+
+<CardGrid>
+    <LinkCard href="dailybugle/index.html"
+        variant="secondary"
+        title="dailybugle"
+        description="Joomla SQL Injection on old OS and kernel; `john` to decrypt one `bcrypt` password. PE by running `yum` plug-in since we can `yum` as `sudo`."></LinkCard>
+    <LinkCard href="internal/index.html"
+        variant="secondary"
+        title="internal"
+        description="Wordpress site; Hydra to brute-force password; We find Jenkins container; port-forward that and brute-force that password. PE: is an exposure of a file"></LinkCard>
+</CardGrid>

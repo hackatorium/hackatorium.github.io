@@ -1,0 +1,76 @@
+---
+title: Features
+description: Learn about the features of Starlight.
+---
+
+import { Steps } from '@astrojs/starlight/components';
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard, Aside } from '@astrojs/starlight/components';
+import { Badge, LinkButton } from '@astrojs/starlight/components';
+
+<h2>Steps</h2>
+
+<Steps>
+
+1. Import the component into your MDX file:
+
+   ```js
+   import { Steps } from '@astrojs/starlight/components';
+   ```
+
+2. Wrap `<Steps>` around your ordered list items.
+
+</Steps>
+
+<h2>Tabs</h2>
+
+<Tabs syncKey="os">
+  <TabItem icon="seti:windows" label="Windows">Windows content</TabItem>
+  <TabItem icon="linux" label="Linux">Linux content</TabItem>
+  <TabItem icon="apple" label="macOS">Apple content</TabItem>
+</Tabs>
+
+other content
+
+<Tabs syncKey="os">
+  <TabItem icon="seti:windows" label="Windows">Windows content</TabItem>
+  <TabItem icon="linux" label="Linux">Linux content</TabItem>
+  <TabItem icon="apple" label="macOS">Apple content</TabItem>
+</Tabs>
+
+<h2>Cards</h2>
+
+<CardGrid>
+  <Card title="Check this out" icon="pencil">Interesting content you want to highlight.</Card>
+  <Card title="Another Card" icon="star">Additional content to consider.</Card>
+  <LinkCard title="Authoring Markdown" href="/guides/authoring-content/" />
+</CardGrid>
+
+<h2>Asides (admonitions)</h2>
+
+<Aside>Some (default) content in an aside.</Aside>
+<Aside type="note">Some note content.</Aside>
+<Aside type="caution">Some cautionary content.</Aside>
+<Aside type="tip" title="Tip Override">Some tip content.</Aside>
+<Aside type="danger">Some danger content.</Aside>
+
+<h2>Badges</h2>
+
+
+<Badge text="New" size="small" />
+<Badge text="New and improved" size="medium" />
+<Badge text="New, improved, and bigger" size="large" />
+
+<Card>
+<Badge text="default" size="small" />
+<Badge text="note" size="small" variant="note"/>
+<Badge text="danger" size="small" variant="danger"/>
+<Badge text="caution" size="small" variant="caution"/>
+<Badge text="tip" size="small" variant="tip"/>
+</Card>
+
+
+<h2>Link Buttons</h2>
+
+<LinkButton href="/guides/authoring-content/" icon="external" iconPlacement="start" variant="secondary">Authoring Markdown</LinkButton>
+<LinkButton href="/guides/authoring-content/" icon="pencil" iconPlacement="start" variant="primary">Editing Markdown</LinkButton>

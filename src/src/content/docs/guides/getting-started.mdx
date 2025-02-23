@@ -1,0 +1,31 @@
+---
+title: Getting Started
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: Congrats on setting up a new Starlight project!
+  image:
+    file: ../../../assets/houston.webp
+  actions:
+    - text: Example Guide
+      link: /guides/example/
+      icon: right-arrow
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
+---     
+
+import { Steps } from '@astrojs/starlight/components';
+
+<Steps>
+
+1. Import the component into your MDX file:
+
+   ```js
+   import { Steps } from '@astrojs/starlight/components';
+   ```
+
+2. Wrap `<Steps>` around your ordered list items.
+
+</Steps>

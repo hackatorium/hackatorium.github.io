@@ -75,7 +75,15 @@ export default defineConfig({
 					tag: 'link',
 					attrs: {
 						rel: 'stylesheet',
-						href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap'
+						// Choose one of these font combinations:
+						//href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap'
+						//href: 'https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap'
+						// Or:
+						href: 'https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap'
+						// Or:
+						// href: 'https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'
+						// Or:
+						// href: 'https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap'
 					}
 				},
 				// Force dark mode

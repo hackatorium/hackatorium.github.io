@@ -9,8 +9,8 @@ body::before {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(8px);
-  opacity: 0.03;
+  filter: blur(4px);
+  opacity: 0.02;
   z-index: -1;
 }
 
@@ -38,13 +38,27 @@ body {
 }
 
 :root {
-  --sl-font: 'JetBrains Mono', 'Consolas', 'Courier New', monospace;
-  --sl-text-base: 0.9rem;        /* Base body text size */
-  --sl-text-sm: 0.8rem;          /* Small text size */
-  --sl-text-xs: 0.7rem;          /* Extra small text size */
-  --sl-text-lg: 1.1rem;          /* Large text size */
-  --sl-text-xl: 1.3rem;          /* Extra large text size */
-  --sl-text-2xl: 1.5rem;         /* 2xl text size */
-  --sl-text-3xl: 1.8rem;         /* 3xl text size */
-  --sl-text-4xl: 2.2rem;         /* 4xl text size */
+  /* --sl-font: 'JetBrains Mono', 'Consolas', 'Courier New', monospace; */
+  --sl-font-system: 'Share Tech Mono', 'Consolas', monospace;
+  /* --sl-font: 'Orbitron', 'Share Tech Mono', 'Consolas', monospace; */
+  
+  /* Option 2: Chakra Petch */
+  --sl-font: 'Chakra Petch', 'Consolas', monospace;
+  
+  /* Option 3: Share Tech Mono */
+  /* --sl-font: 'Share Tech Mono', 'Consolas', monospace; */
+  
+  /* Option 4: Major Mono Display (very stylized) */
+  /* --sl-font: 'Major Mono Display', 'Consolas', monospace; */
+  
+/*
+  --sl-text-base: 0.9rem;        
+  --sl-text-sm: 0.8rem;          
+  --sl-text-xs: 0.7rem;          
+  --sl-text-lg: 1.1rem;          
+  --sl-text-xl: 1.3rem;          
+  --sl-text-2xl: 1.5rem;         
+  --sl-text-3xl: 1.8rem;         
+  --sl-text-4xl: 2.2rem;         
+  */
 }

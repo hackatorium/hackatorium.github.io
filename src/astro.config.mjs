@@ -71,6 +71,13 @@ export default defineConfig({
 				},
 			],
 			head: [
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'stylesheet',
+						href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap'
+					}
+				},
 				// Force dark mode
 				{
 				  tag: 'script',

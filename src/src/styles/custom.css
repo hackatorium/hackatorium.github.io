@@ -36,3 +36,15 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
 }
+
+:root {
+  --sl-font: 'JetBrains Mono', 'Consolas', 'Courier New', monospace;
+  --sl-text-base: 0.9rem;        /* Base body text size */
+  --sl-text-sm: 0.8rem;          /* Small text size */
+  --sl-text-xs: 0.7rem;          /* Extra small text size */
+  --sl-text-lg: 1.1rem;          /* Large text size */
+  --sl-text-xl: 1.3rem;          /* Extra large text size */
+  --sl-text-2xl: 1.5rem;         /* 2xl text size */
+  --sl-text-3xl: 1.8rem;         /* 3xl text size */
+  --sl-text-4xl: 2.2rem;         /* 4xl text size */
+}

@@ -16,6 +16,10 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/hackatorium',
 			},
+			components: {
+				// Override theme selector to hide it
+				ThemeSelect: './src/components/Empty.astro',
+			  },
 			customCss: [
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
@@ -66,6 +70,13 @@ export default defineConfig({
 					]
 				},
 			],
+			head: [
+				// Force dark mode
+				{
+				  tag: 'script',
+				  content: 'document.documentElement.dataset.theme = "dark";'
+				}
+			  ],
 		}),
 	],
 	markdown: {
